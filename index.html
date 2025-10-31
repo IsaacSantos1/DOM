@@ -11,7 +11,7 @@
   <body>
     <section class="container">
       <div class="logo">
-        <img src="images/logo.png" alt="Learn with AI" />
+        <img src="logo.png" alt="Learn with AI" />
       </div>
       <h1 id="header" class="header">To-Do App</h1>
 
@@ -19,19 +19,23 @@
         <label for="new-task">Add New Task</label>
         <input type="text" id="new-task" />
         <input type="submit" id="addTask" value="Add Task" />
+       
       </form>
 
       <div class="todo-list box">
         <h2>Incomplete Tasks</h2>
         <ul id="items">
           <li class="item">
-            <input type="checkbox" /><label id="taskName1">Task Name1</label>
+            <input type="checkbox" />
+            <label id="taskname1">Task Name1</label>
           </li>
           <li class="item">
-            <input type="checkbox" /><label>Task Name</label>
+            <input type="checkbox" /> 
+            <label  id="taskname2">Task Name2 </label>
           </li>
           <li class="item">
-            <input type="checkbox" /><label>Task Name</label>
+            <input type="checkbox" />
+            <label id="taskname3">Task Name</label>
           </li>
         </ul>
       </div>
@@ -40,7 +44,7 @@
       <div class="complete-list box">
         <h2>Completed Tasks</h2>
         <ul>
-          <li class="item">Task Name <button class="delete">Delete</button></li>
+          <li class="item" >Task Name <button class="delete" id="compl1">Delete</button></li>
         </ul>
       </div>
       <!--/complete-list-->
